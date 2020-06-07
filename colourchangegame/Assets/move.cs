@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class move : MonoBehaviour
 {
+    
     static Animator anim;
     public float Speed = 2.0f;
 
@@ -24,3 +25,7 @@ public class move : MonoBehaviour
         ThisTransform.position += new Vector3(Speed * Time.deltaTime, 0f, 0f);
     }
 }
+
+
+
+
